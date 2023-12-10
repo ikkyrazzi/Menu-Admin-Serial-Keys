@@ -8,7 +8,7 @@
     <ul class="sidebar-menu">
         <li class="menu-header">Dashboard</li>
         <li class="">
-            <a class="nav-link" href="/home"><i class="fas fa-fire"></i> <span>Dashboard</span></a>
+            <a class="nav-link" href="/home"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
         </li>
 
         <li class="menu-header">Kelola Data</li>
@@ -16,10 +16,10 @@
             <a class="nav-link" href="{{ route('tampilan.books.index') }}"><i class="fa fa-book" aria-hidden="true"></i> <span>Data Buku</span></a>
         </li>
         <li class="">
-            <a class="nav-link" href="{{ route('tampilan.apps.index') }}"><i class="fa fa-mobile" aria-hidden="true"></i> <span>Data Aplikasi</span></a>
+            <a class="nav-link" href="{{ route('tampilan.apps.index') }}"><i class="fa fa-laptop" aria-hidden="true"></i> <span>Data Aplikasi</span></a>
         </li>
         <li class="">
-            <a class="nav-link" href="{{ route('tampilan.book_apps.index') }}"><i class="fa fa-refresh" aria-hidden="true"></i> <span>Sinkronisasi Data</span></a>
+            <a class="nav-link" href="{{ route('tampilan.book_apps.index') }}"><i class="fa fa-sync" aria-hidden="true"></i> <span>Sinkronisasi Data</span></a>
         </li>
 
         <li class="menu-header">Kelola Serial</li>
@@ -34,7 +34,7 @@
 
         <li class="menu-header">Laporan</li>
         <li class="">
-            <a class="nav-link" href="{{ route('tampilan.serials.laporan') }}"><i class="fa fa-database" aria-hidden="true"></i> <span>Lap Data Serial</span></a>
+            <a class="nav-link" href="{{ route('tampilan.serials.laporan') }}"><i class="fa fa-file-alt" aria-hidden="true"></i> <span>Lap Data Serial</span></a>
         </li>
     </ul>
 
